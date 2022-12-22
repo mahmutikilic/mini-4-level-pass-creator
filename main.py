@@ -1,5 +1,3 @@
-from distutils.cmd import Command
-from multiprocessing.sharedctypes import Value
 import tkinter as tk
 from tkinter import END, ttk,messagebox
 import random as r
