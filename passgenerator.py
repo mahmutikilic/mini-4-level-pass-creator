@@ -19,7 +19,7 @@ def impasibpass(input):
     sifre="".join(r.sample(harflerimkansiz,input))
     return sifre
 
-print("Hi, Welcome to Password Creator) \n Fistly, write length of password later choose password comlexty.")
+print("Hi, Welcome to Password Creator \n Fistly, write length of password later choose password comlexty.")
 passrange=int(input("Password length: "))
 secim=int(input(" 1- Just numbers \n 2- lower letters and numbers \n 3- dot, lower/upper letters and numbers \n 4- specific characters, lower/upper letters and numbers \n 0- EXIT\n : "))
 if secim== 1:
